@@ -79,14 +79,15 @@ terms:
   - id: '9557b9ec-df86-4e27-a929-4900a3f0e546'
     name: 'No_'
     dataType:
-      length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 20
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: '47ee2fd5-31e6-4a79-80f3-7e8bb6360d93'
     name: 'Name'
     dataType:
