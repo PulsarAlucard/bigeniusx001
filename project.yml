@@ -12,3 +12,6 @@ sourceSystems:
   - id: '44ed6185-60ff-4132-89fa-61cc40387e16'
     name: 'POS'
     description: ''
+  - id: '6af52770-a9cb-4d3e-ad41-5a3910ddf6ab'
+    name: 'bfm'
+    description: ''

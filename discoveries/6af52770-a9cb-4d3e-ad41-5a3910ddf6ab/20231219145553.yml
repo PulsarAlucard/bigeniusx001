@@ -1,0 +1,1140 @@
+id: '99a7cd2b-51d0-451d-a90a-5af6fe91829d'
+name: 'bfm.json'
+timestamp: '2023-12-19T14:55:53.3160401+00:00'
+sourceSystem:
+  type: 'File'
+sourceObjects:
+  - name: 'Branch.parquet'
+    fullyQualifiedName: 'Branch.parquet'
+    objectType: {}
+    terms:
+      - name: 'ADDRESS_LINE1'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ADDRESS_LINE2'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ADDRESS_LINE3'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ARTICLE_NUMBER_APPROX'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'BRANCH_NAME'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY_ISO_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'LOCATION_SINCE'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'MARKET_SIZE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'RETAIL_SPACE_M2'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ZIP_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Country.parquet'
+    fullyQualifiedName: 'Country.parquet'
+    objectType: {}
+    terms:
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ISO_CODE_2'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'NUMERIC_CODE'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Customer.parquet'
+    fullyQualifiedName: 'Customer.parquet'
+    objectType: {}
+    terms:
+      - name: 'ADDRESS_LINE1'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ADDRESS_LINE2'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ADDRESS_LINE3'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY_ISO_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'CUSTOMER'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'CUSTOMER_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'CUSTOMER_SINCE'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'CUSTOMER_TYPE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ZIP_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Departement.parquet'
+    fullyQualifiedName: 'Departement.parquet'
+    objectType: {}
+    terms:
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'DEPARTMENT_DE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'DEPARTMENT_EN'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'DEPARTMENT_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Employee.parquet'
+    fullyQualifiedName: 'Employee.parquet'
+    objectType: {}
+    terms:
+      - name: 'ADDRESS_LINE1'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ADDRESS_LINE2'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ADDRESS_LINE3'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'BIRTH_DATE'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY_ISO_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'DEPARTMENT_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'EMPLOYEE_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'FIRST_HIRE_DATE'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'FIRST_NAME'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'HIRE_END_DATE'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'HIRE_START_DATE'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'INSERT_DATE'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+        dataType:
+          name: 'datetime2'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'IS_ACTIVE_RECORD'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'JOBFUNCTION_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'LAST_NAME'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'UPDATE_DATE'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+        dataType:
+          name: 'datetime2'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ZIP_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Item.parquet'
+    fullyQualifiedName: 'Item.parquet'
+    objectType: {}
+    terms:
+      - name: 'BASE_UOM'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'DESCRIPTION'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SALES_UOM'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SUPPLIER_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'ItemUnitOfMeasure.parquet'
+    fullyQualifiedName: 'ItemUnitOfMeasure.parquet'
+    objectType: {}
+    terms:
+      - name: 'BASE_UOM'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'DESCRIPTION'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'QTY_PER_BASE_UOM'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'UOM'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Jobfunction.parquet'
+    fullyQualifiedName: 'Jobfunction.parquet'
+    objectType: {}
+    terms:
+      - name: 'JOBFUNCTION_DE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'JOBFUNCTION_EN'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'JOBFUNCTION_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Kitchen.parquet'
+    fullyQualifiedName: 'Kitchen.parquet'
+    objectType: {}
+    terms:
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'KITCHEN'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'KITCHEN_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Loyaltycard.parquet'
+    fullyQualifiedName: 'Loyaltycard.parquet'
+    objectType: {}
+    terms:
+      - name: 'CUSTOMER_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'LOYALTYCARD_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'VALID_FROM'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'VALID_TO'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Phonenumber.parquet'
+    fullyQualifiedName: 'Phonenumber.parquet'
+    objectType: {}
+    terms:
+      - name: 'FOREIGN_KEY_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'PHONENUMBER_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'PHONE_NUMBER'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'PHONE_NUMBER_TYPE_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'POS.parquet'
+    fullyQualifiedName: 'POS.parquet'
+    objectType: {}
+    terms:
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'CASHBOX_NO'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'POS_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'ProductionOrder.parquet'
+    fullyQualifiedName: 'ProductionOrder.parquet'
+    objectType: {}
+    terms:
+      - name: 'EMPLOYEE_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'KITCHEN_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'PRODUCTIONORDER_ID'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 0
+          precision: 38
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 0
+          precision: 38
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'PROD_DATE'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'ProductionOrderLine.parquet'
+    fullyQualifiedName: 'ProductionOrderLine.parquet'
+    objectType: {}
+    terms:
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'LINE_NO'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'PRODUCTIONORDER_ID'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 0
+          precision: 38
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 0
+          precision: 38
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'QTY'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 0
+          precision: 38
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 0
+          precision: 38
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'UOM'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'PurchasePrice.parquet'
+    fullyQualifiedName: 'PurchasePrice.parquet'
+    objectType: {}
+    terms:
+      - name: 'CHANGED_AT'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+        dataType:
+          name: 'datetime2'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'CREATED_AT'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+        dataType:
+          name: 'datetime2'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 0
+          precision: 38
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 0
+          precision: 38
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'PRICE_EUR'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 2
+          precision: 18
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 2
+          precision: 18
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SUPPLIER_ID'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 0
+          precision: 38
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 0
+          precision: 38
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'VALID_FROM'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+        dataType:
+          name: 'datetime2'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Salestransaction.parquet'
+    fullyQualifiedName: 'Salestransaction.parquet'
+    objectType: {}
+    terms:
+      - name: 'CASHIER_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'DESCRIPTION'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'LOYALTYCARD_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'POS_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'QUANTITY'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 3
+          precision: 18
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 3
+          precision: 18
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'REDUCTION'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 2
+          precision: 18
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 2
+          precision: 18
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SALES_AMOUNT'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 2
+          precision: 18
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 2
+          precision: 18
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SALES_PRICE'
+        sourceDataType:
+          name: 'decimal128'
+          scale: 2
+          precision: 18
+          isNullable: false
+        dataType:
+          name: 'decimal'
+          scale: 2
+          precision: 18
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'TRANSACTION_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'TRANSACTION_LINE_NO'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'TRANSACTION_TIME'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+        dataType:
+          name: 'datetime2'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'UOM'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: 'Supplier.parquet'
+    fullyQualifiedName: 'Supplier.parquet'
+    objectType: {}
+    terms:
+      - name: 'ADDRESS_LINE1'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ADDRESS_LINE2'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ADDRESS_LINE3'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'COUNTRY_ISO_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SUPPLIER'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SUPPLIER_FOR'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SUPPLIER_ID'
+        sourceDataType:
+          name: 'int32'
+          isNullable: false
+        dataType:
+          name: 'int'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'SUPPLIER_SINCE'
+        sourceDataType:
+          name: 'date32'
+          isNullable: false
+        dataType:
+          name: 'date'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: 'ZIP_CODE'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+        dataType:
+          name: 'nvarchar'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
