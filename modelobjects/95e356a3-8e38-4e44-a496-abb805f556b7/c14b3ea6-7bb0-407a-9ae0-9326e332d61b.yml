@@ -1,0 +1,40 @@
+id: 'c14b3ea6-7bb0-407a-9ae0-9326e332d61b'
+name: 'KITCHEN'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '18f53569-932a-4a1e-aa32-8180008770b9'
+    name: 'KITCHEN_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a1059095-a1ca-45fe-b04e-306d5897e982'
+    name: 'BRANCH_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '683ff1b8-d67a-4b6b-a4cc-72aa08b79827'
+    name: 'KITCHEN'
+    dataType:
+      length: 50
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#8b609b52-8c82-44b7-9cc1-18bc0fab9762'
+  - '$sourcesystem#id#44ed6185-60ff-4132-89fa-61cc40387e16'
+  - '$initial#name#kitchen'
+propertyValues: []
