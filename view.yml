@@ -25,6 +25,18 @@ views:
     default: true
     modelObjects:
       - id: '58c8020d-7a6e-4ebe-a66d-18d8eb247601'
+        x: 0
+        'y': 0
+        collapsed: true
       - id: '0f991102-1918-422e-9b8c-3d824e326cb3'
+        x: 370.5
+        'y': 0
+        collapsed: true
       - id: 'd0c973c1-7a56-4050-b4c0-2db3a21a3197'
+        x: 741
+        'y': 0
+        collapsed: true
       - id: 'ab6625f6-cc58-410a-8ad9-73be9329894f'
+        x: 745.5
+        'y': 212
+        collapsed: true
