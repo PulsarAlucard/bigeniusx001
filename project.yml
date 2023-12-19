@@ -5,3 +5,7 @@ description: 'asf'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
   version: '1.2.0'
+sourceSystems:
+  - id: '96ba554f-bc27-4b49-b097-2484804560ac'
+    name: 'ERP'
+    description: ''
