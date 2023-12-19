@@ -1,0 +1,59 @@
+id: '7403a33d-459d-4723-a368-19600af13e8a'
+name: 'Item.parquet'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '74d61778-6583-4f13-80b9-058251d31bcb'
+    name: 'BASE_UOM'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c8fffed3-fc75-4e5b-9bf8-6f4886a63879'
+    name: 'DESCRIPTION'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f214fc0f-bc75-40d0-8b3c-9979903f160a'
+    name: 'ITEM_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6763e66f-e761-49ea-8303-fb8e92787ae8'
+    name: 'SALES_UOM'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9a825f47-6c04-4d5e-b08d-e4b3a046d28c'
+    name: 'SUPPLIER_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#99a7cd2b-51d0-451d-a90a-5af6fe91829d'
+  - '$sourcesystem#id#6af52770-a9cb-4d3e-ad41-5a3910ddf6ab'
+  - '$initial#name#item.parquet'
+propertyValues: []
