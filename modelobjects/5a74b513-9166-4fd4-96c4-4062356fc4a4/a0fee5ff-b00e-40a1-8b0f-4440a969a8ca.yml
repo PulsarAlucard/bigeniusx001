@@ -1,0 +1,119 @@
+id: 'a0fee5ff-b00e-40a1-8b0f-4440a969a8ca'
+name: 'POS'
+description: 'Generated Model Object from POS'
+modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
+terms:
+  - id: 'efe5708f-5573-42c2-86f6-8f7ee1d1c5a3'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'bbcafeba-cc5d-4078-a47f-7c716b92c9fd'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fd41a176-524f-4989-9d14-d4aa809d7b33'
+    name: 'BG_IncrementalFilter'
+    description: 'Default term for incremental load'
+    dataType:
+      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+    defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: true
+    hiddenInTarget: false
+  - id: '2ff21627-5f50-4c66-aa4e-25963c96b80b'
+    name: 'BG_DataflowName'
+    description: 'Default term for incremental load'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'af496643-6176-472a-8abe-b6df2e13a2fb'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: true
+    hiddenInTarget: false
+  - id: 'fd0dab55-b17b-494b-87af-ac3bd9d26adf'
+    name: 'BG_ID'
+    description: 'Default term for surrogate key of increment table'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: 'e8bfb245-78ae-42cc-93ca-ebb54f606720'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: true
+    hiddenInTarget: true
+  - id: '859e54d1-4adb-47e3-9146-b61f196b355b'
+    name: 'POS_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9b39cf48-435b-4505-8f76-f7c922d0f2cd'
+    name: 'BRANCH_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '96e1357c-7b1e-42ba-9344-2a4c1180f9a1'
+    name: 'CASHBOX_NO'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '8ce1a9f9-d852-489b-beb7-095af6868658'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'b872f62c-9096-4cd1-8377-4812b8686f74'
+        name: 'Set1'
+        termMappings:
+          - termId: 'efe5708f-5573-42c2-86f6-8f7ee1d1c5a3'
+          - termId: 'bbcafeba-cc5d-4078-a47f-7c716b92c9fd'
+          - termId: 'fd41a176-524f-4989-9d14-d4aa809d7b33'
+          - termId: '2ff21627-5f50-4c66-aa4e-25963c96b80b'
+          - termId: 'fd0dab55-b17b-494b-87af-ac3bd9d26adf'
+          - termId: '859e54d1-4adb-47e3-9146-b61f196b355b'
+            expression: 'a61b51f4-e68b-40d2-95e5-f284a27b7423.8b0c3da8-cd36-44e2-8678-fd7db6757c58'
+          - termId: '9b39cf48-435b-4505-8f76-f7c922d0f2cd'
+            expression: 'a61b51f4-e68b-40d2-95e5-f284a27b7423.6c5aadc0-4145-4995-b4e3-6611774db38e'
+          - termId: '96e1357c-7b1e-42ba-9344-2a4c1180f9a1'
+            expression: 'a61b51f4-e68b-40d2-95e5-f284a27b7423.8c269895-b7ec-4f5c-93a2-f33a5e83eea6'
+        dataflowModelObjects:
+          - id: 'a61b51f4-e68b-40d2-95e5-f284a27b7423'
+            sourceModelObjectId: '0d093af5-a32e-44c7-a3b4-abebf67025fc'
+            alias: 's1'
