@@ -5,13 +5,14 @@ terms:
   - id: '02559132-f414-4a78-832a-a88c495c9de0'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: '28ca5fca-aad4-4897-8f02-e41766a918ad'
     name: 'No_'
     dataType:
